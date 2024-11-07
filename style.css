@@ -1,0 +1,191 @@
+body{
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(106, 181, 197);
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 21%;
+    float: left;
+    background-color: #007bff;
+    position: fixed;
+}
+.child1{
+    height: 150px;
+    width: 120px;
+    text-align: center;
+    margin-top: 100px ;
+    margin-left: 80px ;
+    background-color: #2196f3;;
+    border-radius: 50%;
+}
+.child2{
+    text-align: center;
+}
+
+.img1{
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    border-radius: 50%;
+}
+.baby1{
+    height: 600px;
+    width: 100%;
+    text-align: left;
+    background-image: url(profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right{
+    height: 100%;
+    width: 78%;
+    float: left;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    margin-left: 270px;
+   
+}
+.logo1{
+    margin-left: 20px;
+    text-align: left;
+    height: 100px;
+    padding: 50px;
+}
+.logo2{
+    margin-left: 70px;
+}
+h1{
+    line-height: 0;
+    font-size: 6rem;
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    font-size: 100px;
+}
+
+.subheading{
+    line-height: 0;
+    margin: auto; 
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Saira Extra Condensed', serif;
+    font-size: 1.0rem;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+    box-sizing: border-box;
+
+}
+.para{
+    margin-right: 300px;
+}
+.list{
+    height: 90px;
+    width: 78%;
+    margin-top: 80px;
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* next page Experience*/
+.baby2{
+    height: 800px;
+    width: 100%;
+    text-align: left;
+    background-image: url(experience.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.softSkill{
+    float: left;
+    /* border: 2px solid black; */
+    height: 400px;
+    padding: 10px;
+    margin-left: 50px;
+    box-shadow: 5px 10px 10px gray;
+}
+.hardSkill{
+    float: left;
+    /* border: 2px solid black; */
+    height: 400px;
+    padding: 10px;
+    margin-left: 50px;
+    width: 400px;
+    box-shadow: 5px 10px 10px gray;
+
+}
+header{
+    line-height: 1;
+    text-align: center;
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* color: black; */
+    font-size: 40px;
+}
+
+.heading{
+    line-height: 3;
+    text-align: center;
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* color: black; */
+    font-size: 40px;
+}
+ .row{
+    height: 300px;
+    width: 100%;
+    margin-top: 30px;
+ }
+ .col-6{
+    height: 250px;
+    width: 45%;
+    margin-left: 3%;
+    float: left;
+ }
+
+ .baby3{
+    background-image: url(skill.jpg);
+    height: 650px;
+    width: 100%;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .row1{
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+ }
+ .col-3{
+    height: 200px;
+    width: 20%;
+    margin-left: 5%;
+    float: left;
+ }
+  
+ .baby4{
+    height: 600px;
+    width: 100%;
+    text-align: left;
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
